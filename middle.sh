@@ -2,10 +2,11 @@
 # action : take the lines between number 10 and 15 
 # output : show the results on screen 
 
-for filename in  ls p*
+for filename in "$@"
 do
 echo $filename
 head -n 15 $filename | tail -n 5 
+something stupid
 echo
 done
 
