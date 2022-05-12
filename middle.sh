@@ -4,5 +4,10 @@
 
 for filename in  ls p*
 do
+echo $filename
 head -n 15 $filename | tail -n 5 
+echo
 done
+
+# final remark
+
